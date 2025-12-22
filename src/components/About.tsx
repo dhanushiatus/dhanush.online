@@ -4,15 +4,15 @@ import { Card } from "@/components/ui/card";
 const About = () => {
   const education = [
     {
-      year: "2024-2027",
+      year: "2023-2027",
       institution: "SLIIT",
       degree: "BSc in IT specializing in Data Science",
       status: "Expected 2027",
       icon: <GraduationCap className="h-5 w-5" />
     },
     {
-      year: "2022-2023",
-      institution: "ESOFT Metro Campus",
+      year: "2017-2018",
+      institution: "ESOFT Metro College – Hatton",
       degree: "Diploma in IT & English",
       status: "Completed",
       icon: <GraduationCap className="h-5 w-5" />
