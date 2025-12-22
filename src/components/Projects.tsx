@@ -11,15 +11,51 @@ import eventManagementImage from "@/assets/event-management.jpg";
 const Projects = () => {
   const projects = [
     {
+      title: "Mail Management Multi-Agent AI",
+      description: "Developed an AI-powered email management system using a multi-agent architecture to automate email organization, summarization, replies, and reminders.",
+      techStack: ["Python", "FastAPI", "Streamlit", "Gemini AI", "IMAP/SMTP"],
+      features: ["Intelligent Categorization", "Email Summarization", "Context-aware Responses", "OTP Authentication"],
+      category: "AI / Machine Learning",
+      icon: <Database className="h-6 w-6" />,
+      color: "neon",
+      status: "Completed",
+      image: studentSupportImage,
+      githubLink: "https://github.com/dhanushiatus/Mail_Management_Multi_Agent_AI"
+    },
+    {
+      title: "AQI Prediction System",
+      description: "Developed a machine learning–based system to predict AQI categories (Good, Moderate, Unhealthy, etc.) using WAQI datasets with an interactive dashboard.",
+      techStack: ["Python", "Streamlit", "scikit-learn", "Pandas", "NumPy"],
+      features: ["AQI Prediction", "Pollutant Analysis", "Probability Visualization", "Map-based Insights"],
+      category: "AI / Machine Learning",
+      icon: <Database className="h-6 w-6" />,
+      color: "accent",
+      status: "Completed",
+      image: hospitalManagementImage,
+      githubLink: "https://github.com/dhanushiatus/AQI_Prediction"
+    },
+    {
+      title: "Movie Recommendation System",
+      description: "Developed a content-based movie recommendation system using machine learning techniques to suggest similar movies based on user preferences.",
+      techStack: ["Python", "Machine Learning", "Scikit-learn", "Streamlit"],
+      features: ["Content-based Filtering", "Feature Extraction", "Similarity Matching", "Real-time Recommendations"],
+      category: "AI / Machine Learning",
+      icon: <Database className="h-6 w-6" />,
+      color: "secondary",
+      status: "Completed",
+      image: polymartEcoplastImage,
+      githubLink: "https://github.com/dhanushiatus"
+    },
+    {
       title: "Student Support Desk",
       description: "A comprehensive web application for managing student queries and support tickets with an intuitive admin dashboard.",
       techStack: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
       features: ["Real-time Chat", "Ticket Management", "Admin Dashboard", "Email Notifications"],
       category: "Web Development",
       icon: <Globe className="h-6 w-6" />,
-      color: "neon",
+      color: "neon-green",
       status: "Completed",
-      image: studentSupportImage,
+      image: financeTrackerImage,
       githubLink: "https://github.com/dhanushiatus/University-Student-Support-Desk"
     },
     {
@@ -29,9 +65,9 @@ const Projects = () => {
       features: ["Patient Management", "Appointment Scheduling", "Medical Records", "Staff Dashboard"],
       category: "Enterprise Application",
       icon: <Code className="h-6 w-6" />,
-      color: "accent",
+      color: "neon",
       status: "Completed",
-      image: hospitalManagementImage,
+      image: eventManagementImage,
       githubLink: "https://github.com/dhanushiatus/User_Registration_Appointment_Booking"
     },
     {
@@ -41,9 +77,9 @@ const Projects = () => {
       features: ["E-commerce Platform", "Payment Integration", "Inventory Management", "Analytics Dashboard"],
       category: "MERN Stack",
       icon: <Database className="h-6 w-6" />,
-      color: "secondary",
+      color: "accent",
       status: "In Progress",
-      image: polymartEcoplastImage,
+      image: studentSupportImage,
       githubLink: "https://github.com/dhanushiatus/PolyMart-EcoPlastMangementSys"
     },
     {
@@ -53,9 +89,9 @@ const Projects = () => {
       features: ["Expense Tracking", "Budget Planning", "Data Visualization", "Goal Setting"],
       category: "Mobile Development",
       icon: <Smartphone className="h-6 w-6" />,
-      color: "neon-green",
+      color: "secondary",
       status: "Completed",
-      image: financeTrackerImage,
+      image: hospitalManagementImage,
       githubLink: "https://github.com/dhanushiatus/Personal_Finance_Tracking_Mobile_App_MoneyMate"
     },
     {
@@ -65,9 +101,9 @@ const Projects = () => {
       features: ["Event Planning", "Booking System", "Real-time Updates", "Push Notifications"],
       category: "Mobile Development",
       icon: <Calendar className="h-6 w-6" />,
-      color: "accent",
+      color: "neon-green",
       status: "Completed",
-      image: eventManagementImage,
+      image: polymartEcoplastImage,
       githubLink: "https://github.com/dhanushiatus/Event_Management_Mobile_App_Momentous"
     }
   ];

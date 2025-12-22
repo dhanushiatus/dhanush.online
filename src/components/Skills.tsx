@@ -14,40 +14,52 @@ import {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Web Development",
+      title: "Programming Languages",
       icon: <Code className="h-6 w-6" />,
-      skills: ["HTML5", "CSS3", "JavaScript", "PHP", "Java Servlets", "JSP", "MySQL", "MERN Stack"],
+      skills: ["Python", "Java", "R", "C++", "C", "HTML", "CSS", "JavaScript"],
       color: "neon"
     },
     {
-      title: "Mobile Development", 
-      icon: <Smartphone className="h-6 w-6" />,
-      skills: ["Kotlin", "Java", "Android Studio", "Mobile UI/UX"],
+      title: "Frameworks & Libraries", 
+      icon: <Database className="h-6 w-6" />,
+      skills: ["TensorFlow", "PyTorch", "MERN Stack", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
       color: "accent"
     },
     {
-      title: "Data Science & AI",
-      icon: <Database className="h-6 w-6" />,
-      skills: ["Python", "R", "Machine Learning", "Data Analysis", "Statistical Modeling"],
+      title: "Automation & Workflow",
+      icon: <Wrench className="h-6 w-6" />,
+      skills: ["n8n", "Google Gemini AI", "RESTful APIs", "FastAPI", "Streamlit"],
       color: "secondary"
     },
     {
-      title: "Tools & Technologies",
-      icon: <Wrench className="h-6 w-6" />,
-      skills: ["Git", "GitHub", "XAMPP", "RStudio", "Postman", "VS Code", "IntelliJ IDEA"],
+      title: "Web & Mobile Development",
+      icon: <Smartphone className="h-6 w-6" />,
+      skills: ["Android Studio", "Kotlin", "XML", "Responsive UI", "React", "Node.js"],
       color: "neon-green"
+    },
+    {
+      title: "Cloud & DevOps",
+      icon: <Database className="h-6 w-6" />,
+      skills: ["AWS", "Azure", "Git", "GitHub", "Cloud Computing"],
+      color: "neon"
+    },
+    {
+      title: "Tools",
+      icon: <Wrench className="h-6 w-6" />,
+      skills: ["VS Code", "PyCharm", "IntelliJ", "Jupyter", "Colab", "RStudio", "Excel"],
+      color: "accent"
+    },
+    {
+      title: "AI & Machine Learning",
+      icon: <Lightbulb className="h-6 w-6" />,
+      skills: ["Data Preprocessing", "Feature Engineering", "NLP", "Predictive Analytics", "Recommender Systems"],
+      color: "secondary"
     },
     {
       title: "Soft Skills",
       icon: <Users className="h-6 w-6" />,
-      skills: ["Team Collaboration", "Project Management", "Agile Methodology", "Leadership"],
-      color: "accent"
-    },
-    {
-      title: "Communication",
-      icon: <MessageSquare className="h-6 w-6" />,
-      skills: ["Technical Writing", "Presentation", "Client Relations", "Mentoring"],
-      color: "secondary"
+      skills: ["Communication", "Teamwork", "Leadership", "Problem Solving", "Adaptability", "Time Management"],
+      color: "neon-green"
     }
   ];
 

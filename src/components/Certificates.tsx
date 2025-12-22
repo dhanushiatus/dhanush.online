@@ -5,60 +5,108 @@ import { Button } from "@/components/ui/button";
 const Certificates = () => {
   const certificates = [
     {
-      title: "Applied Data Science Capstone",
-      issuer: "United Latino Students Association",
-      date: "June 2025",
-      description: "Applied data science techniques through comprehensive capstone project",
-      skills: ["Data Science", "Python", "Machine Learning", "Research"],
+      title: "IBM Data Science Professional Certificate",
+      issuer: "IBM",
+      date: "2024",
+      description: "Comprehensive program covering data science methodology, tools, and techniques",
+      skills: ["Python", "Data Analysis", "Machine Learning", "SQL"],
       color: "neon"
     },
     {
-      title: "Build a computer vision app with Azure Cognitive Services",
-      issuer: "United Latino Students Association",
-      date: "June 2025",
-      description: "Developed computer vision applications using Azure AI services",
-      skills: ["Computer Vision", "Azure", "AI", "Image Processing"],
+      title: "Machine Learning Foundation Certificate",
+      issuer: "Duke University",
+      date: "2024",
+      description: "Foundational machine learning concepts and practical implementations",
+      skills: ["Machine Learning", "Python", "Neural Networks", "Model Training"],
       color: "accent"
     },
     {
-      title: "Build a free website with WordPress",
-      issuer: "United Latino Students Association",
-      date: "May 2025",
-      description: "Website development and content management using WordPress",
-      skills: ["WordPress", "Web Development", "CMS", "Website Design"],
+      title: "IBM - Applied Data Science Capstone",
+      issuer: "IBM",
+      date: "2024",
+      description: "Applied data science techniques through comprehensive capstone project",
+      skills: ["Data Science", "Python", "Machine Learning", "Research"],
       color: "secondary"
     },
     {
-      title: "Getting Started with Microsoft Excel",
-      issuer: "United Latino Students Association",
-      date: "May 2025",
-      description: "Fundamental Excel skills for data management and analysis",
-      skills: ["Excel", "Data Management", "Spreadsheets", "Basic Analytics"],
+      title: "AWS SimuLearn Series - Cloud Computing Essentials",
+      issuer: "Amazon Web Services",
+      date: "2025",
+      description: "Cloud computing fundamentals and AWS core services",
+      skills: ["AWS", "Cloud Computing", "EC2", "S3"],
       color: "neon-green"
+    },
+    {
+      title: "AWS SimuLearn - Computing Solutions (EC2)",
+      issuer: "Amazon Web Services",
+      date: "2025",
+      description: "Amazon EC2 computing solutions and best practices",
+      skills: ["AWS", "EC2", "Cloud Infrastructure", "Virtualization"],
+      color: "neon"
+    },
+    {
+      title: "AWS SimuLearn - Connecting VPCs",
+      issuer: "Amazon Web Services",
+      date: "2025",
+      description: "VPC networking and connectivity in AWS",
+      skills: ["AWS", "VPC", "Networking", "Cloud Security"],
+      color: "accent"
+    },
+    {
+      title: "AWS SimuLearn - File Systems in the Cloud",
+      issuer: "Amazon Web Services",
+      date: "2025",
+      description: "Cloud-based file storage systems and management",
+      skills: ["AWS", "EFS", "S3", "Cloud Storage"],
+      color: "secondary"
+    },
+    {
+      title: "AWS SimuLearn - Networking Concepts",
+      issuer: "Amazon Web Services",
+      date: "2025",
+      description: "AWS networking fundamentals and architecture",
+      skills: ["AWS", "Networking", "VPC", "Route Tables"],
+      color: "neon-green"
+    },
+    {
+      title: "AWS SimuLearn - Introduction to Amazon S3",
+      issuer: "Amazon Web Services",
+      date: "2025",
+      description: "Amazon S3 storage service fundamentals",
+      skills: ["AWS", "S3", "Object Storage", "Data Management"],
+      color: "neon"
+    },
+    {
+      title: "Configure Virtual Networks",
+      issuer: "Microsoft",
+      date: "2025",
+      description: "Azure virtual network configuration and management",
+      skills: ["Azure", "Virtual Networks", "Networking", "Cloud Security"],
+      color: "accent"
+    },
+    {
+      title: "Introduction to Azure Virtual Machines",
+      issuer: "Microsoft",
+      date: "2025",
+      description: "Azure VM deployment and management fundamentals",
+      skills: ["Azure", "Virtual Machines", "Cloud Computing", "Infrastructure"],
+      color: "secondary"
     },
     {
       title: "Google Ads for Beginners",
-      issuer: "United Latino Students Association",
-      date: "May 2025",
+      issuer: "Coursera",
+      date: "2024",
       description: "Digital marketing fundamentals and Google Ads platform mastery",
       skills: ["Digital Marketing", "Google Ads", "Analytics", "SEM"],
-      color: "accent"
-    },
-    {
-      title: "Introduction to Data Analysis using Microsoft Excel",
-      issuer: "United Latino Students Association",
-      date: "May 2025",
-      description: "Advanced Excel techniques for data analysis and visualization",
-      skills: ["Excel", "Data Analysis", "Data Visualization", "Statistical Analysis"],
-      color: "secondary"
+      color: "neon-green"
     },
     {
       title: "Business Analysis & Process Management",
-      issuer: "United Latino Students Association",
-      date: "April 2025",
+      issuer: "Coursera",
+      date: "2024",
       description: "Business process optimization and analysis methodologies",
       skills: ["Business Analysis", "Process Management", "Strategy", "Optimization"],
-      color: "neon-green"
+      color: "neon"
     },
     {
       title: "AI Product Management",
@@ -66,14 +114,6 @@ const Certificates = () => {
       date: "2024",
       description: "Strategic approach to AI product development and management",
       skills: ["AI Strategy", "Product Management", "Ethics in AI", "Leadership"],
-      color: "neon"
-    },
-    {
-      title: "IBM Data Science Professional Certificate",
-      issuer: "IBM",
-      date: "2024",
-      description: "Comprehensive program covering data science methodology, tools, and techniques",
-      skills: ["Python", "Data Analysis", "Machine Learning", "SQL"],
       color: "accent"
     },
     {
@@ -190,15 +230,15 @@ const Certificates = () => {
         {/* Stats Section */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center">
-            <div className="text-3xl font-bold font-pixel text-neon mb-2">10+</div>
+            <div className="text-3xl font-bold font-pixel text-neon mb-2">15+</div>
             <div className="text-muted-foreground text-sm">Certificates</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold font-pixel text-accent mb-2">5</div>
+            <div className="text-3xl font-bold font-pixel text-accent mb-2">6</div>
             <div className="text-muted-foreground text-sm">Platforms</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold font-pixel text-secondary mb-2">2024</div>
+            <div className="text-3xl font-bold font-pixel text-secondary mb-2">2025</div>
             <div className="text-muted-foreground text-sm">Latest Year</div>
           </div>
           <div className="text-center">
