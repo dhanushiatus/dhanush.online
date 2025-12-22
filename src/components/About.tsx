@@ -29,9 +29,9 @@ const About = () => {
   const experience = [
     {
       title: "Full Stack Developer",
-      company: "Freelancer",
-      type: "Part Time",
-      period: "2024 - Present",
+      company: "Self Employed",
+      type: "Freelance",
+      period: "Aug 2024 - Feb 2025",
       icon: <Code className="h-5 w-5" />,
       responsibilities: [
         "Designed and developed responsive web applications using React.js, Node.js, and MongoDB.",
@@ -39,10 +39,10 @@ const About = () => {
       ]
     },
     {
-      title: "Android Developer",
-      company: "Freelancer", 
-      type: "Part Time",
-      period: "2024 - Present",
+      title: "UI/UX Designer",
+      company: "Self Employed", 
+      type: "Freelance",
+      period: "Jun 2024 - Dec 2024",
       icon: <Briefcase className="h-5 w-5" />,
       responsibilities: [
         "Designed and built intuitive Android applications using Kotlin and Java in Android Studio.",
