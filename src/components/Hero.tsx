@@ -1,7 +1,6 @@
 import { Github, Linkedin, Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
-import profilePhoto from "@/assets/profile-photo.jpg";
 
 const Hero = () => {
   const roles = ["Data scientist", "Data analyst", "Android developer"];
@@ -115,8 +114,8 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end animate-fade-in" style={{ animationDelay: '1.6s' }}>
             <div className="relative group">
               <div className="w-80 h-80 rounded-full border-4 border-neon neon-glow overflow-hidden animate-float transition-all duration-500 group-hover:scale-105 group-hover:border-accent">
-                <img
-                  src={profilePhoto}
+              <img
+                  src="https://i.postimg.cc/50gmpjyQ/profpic.jpg"
                   alt="Jagapathy Dhanushkar"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
